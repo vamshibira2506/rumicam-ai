@@ -1,17 +1,82 @@
-# RUMICAM AI
+# RUMICAM AI  
+Revolutionizing dairy health with AI vision
 
-AI-powered camera system for dairy farmers to detect heat cycles and abnormal behavior in cows.
+## Problem
+Small dairy farmers in India often miss heat cycles and early health issues in cows due to lack of monitoring tools.  
+This leads to:
+- Failed breeding attempts  
+- Reduced milk production  
+- Financial losses  
 
-## How it works
-1. Camera captures cow activity
-2. AI analyzes behavior
-3. Detects rumination & movement patterns
-4. Sends alert via call or app
+---
 
-## Features
-- Heat cycle detection
-- Abnormal behavior alerts
-- Multilingual voice alerts
+## Solution
+RUMICAM is an AI-powered camera system that monitors cow behavior and detects:
+- Heat cycles  
+- Low rumination (reduced chewing)  
+- Abnormal activity  
 
-## Status
-MVP (prototype stage)
+It alerts farmers instantly via voice calls in their local language.
+
+---
+
+## How It Works
+1. Camera captures cow activity in shed  
+2. Video frames are analyzed using AI  
+3. Behavior patterns are detected  
+4. If abnormal → alert triggered  
+5. Farmer receives call/app notification  
+
+---
+
+## Key Features
+- No wearable devices required  
+- Works with keypad phones (voice alerts)  
+- Multilingual support (Telugu, Hindi, English)  
+- Early heat detection improves pregnancy success rate  
+
+---
+
+## Use Case
+Cow ID 7 shows reduced chewing for 2 hours.  
+System detects abnormal behavior and calls the farmer:  
+“Your cow is not chewing properly. Please check immediately.”  
+
+This helps in early intervention and better breeding decisions.
+
+---
+
+## Tech Stack
+- Python (AI logic prototype)  
+- Camera-based monitoring  
+- Voice alert system  
+
+---
+
+## Project Status
+MVP (Prototype) – focused on workflow validation and alert system  
+
+---
+
+## Future Scope
+- Real-time AI model integration  
+- Mobile app for farmers  
+- Veterinary support integration  
+- Large-scale farm deployment  
+
+---
+
+## Impact
+RUMICAM helps farmers:
+- Detect heat cycles early  
+- Improve pregnancy success rates  
+- Reduce losses  
+- Increase productivity  
+
+---
+
+## Repository Structure
+- backend/ → AI logic  
+- alerts/ → voice call system  
+- docs/ → workflow  
+- architecture/ → system design  
