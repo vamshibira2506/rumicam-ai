@@ -79,4 +79,23 @@ RUMICAM helps farmers:
 - backend/ → AI logic  
 - alerts/ → voice call system  
 - docs/ → workflow  
-- architecture/ → system design  
+- architecture/ → system design
+
+## System Overview
+
+Camera → Video Input → AI Processing → Behavior Detection → Alert System → Farmer
+
+---
+
+## Demo Instructions
+
+Run the prototype:
+
+```bash
+python backend/test_run.py
+
+## Demo Video
+https://youtube.com/shorts/gKxcRNt2f5A?si=7UPAEGtS5i3j0x8q
+  
+## 2min video
+https://youtu.be/SBHmShcmmjY?si=F5fgmcwUXW8QHOMe
